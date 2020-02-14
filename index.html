@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+ <html>
+
+ <head>
+     <link rel="icon" href="ISS.png">
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link rel="stylesheet" type="text/css" href="style.css">
+     
+     <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/addons/p5.sound.min.js"></script>
+     <title>ISS tracking project</title>
+ </head>
+
+ <body>
+
+
+     <div id="page">
+         <div id="top">
+
+         </div>
+
+         <div id="header">
+             <h1>Face changer</h1>
+             <h2>Silly Face morphing effort.</h2>
+         </div>
+
+         <div class="links">
+
+         </div>
+
+         <div id="content">
+             <div class="content_top">
+                 <h1>An attempt to track the ISS</h1>
+
+
+             </div>
+             <div class="content_instance">
+                 <div class="content_right">
+                     <div>
+                         <h2>ISS tracked in real time</h2>
+                         <p id="pLat"></p>
+                         <p id="pLong"></p>
+                         <p id="pDistance"></p>
+                         <p id="pVelocity"></p>
+                         <p id="pCloseVel"></p>
+
+                     </div>
+                     <div>
+                         <br>
+                         <input id="maplock" type="checkbox">
+                         <label id="maplocLabel" for="mapLocked"> Map Locked ?</label><br>
+                     </div>
+                     <div>
+                         <br>
+                         <button id="audioButton" onclick="toggleAudio(this)" class="button">test</button>
+                     </div>
+                     <div>
+                         <br>
+                         <input id="proximity" type="range" min="1" max="5000" value="700">
+                         <label id="proxLabel" class="slideLabel" for="proximity">Audible proximity</label>
+
+                     </div>
+                 </div>
+
+                 <div id='mapISS'></div>
+             </div>
+
+
+         </div>
+
+         <script src="sketch.js" type="text/javascript"></script>
+
+
+     </div>
+
+
+
+
+     </div>
+
+ </body>
+
+ </html>
