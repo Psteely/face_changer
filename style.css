@@ -79,8 +79,8 @@ p {
   position: relative;
   margin-left: 20px;
   padding-top: 7px;
-  color: #000000;
-  text-align: left;
+  color: #ffffff;
+  text-align: center;
   font-size: 47px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
@@ -92,10 +92,10 @@ p {
   padding-right: 21px;
   position: relative;
   color: #FFFFFF;
-  text-align: left;
+  text-align: center;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: justify;
+  
 }
 
 
@@ -120,8 +120,8 @@ p {
 
 
 #content .content_instance {
-  width: 800px;
-  height: 400px;
+  width: 400px;
+  height: 800px;
   clear: both;
   /*background-image: url(content_back.png);*/
   background-repeat: repeat-x;
